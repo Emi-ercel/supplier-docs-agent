@@ -1,0 +1,2813 @@
+{
+  "reference_date": "2026-10-01",
+  "suppliers": [
+    {
+      "supplier_id": "SUP-001",
+      "name": "Pescados Cabo Lince S.L.",
+      "country": "Spain",
+      "city": "Murcia",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-002",
+      "name": "Conservas Ribera Alta S.L.",
+      "country": "Spain",
+      "city": "Almería",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-003",
+      "name": "Hortícola Valdecanto S.L.",
+      "country": "Spain",
+      "city": "Calahorra",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-004",
+      "name": "Legumbres Vega Clara S.L.",
+      "country": "Spain",
+      "city": "Tudela",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-005",
+      "name": "Legumbres Mar de Ostia S.L.",
+      "country": "Spain",
+      "city": "Tudela",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-006",
+      "name": "Pescados Campo Sereno S.L.",
+      "country": "Spain",
+      "city": "Mérida",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-007",
+      "name": "Conservas Los Tejares S.L.",
+      "country": "Spain",
+      "city": "Vigo",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-008",
+      "name": "Legumbres Río Lucio S.L.",
+      "country": "Spain",
+      "city": "Mérida",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-009",
+      "name": "Pescados Fuente Mora S.L.",
+      "country": "Spain",
+      "city": "Murcia",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-010",
+      "name": "Legumbres Las Torcas S.L.",
+      "country": "Spain",
+      "city": "Tudela",
+      "approved": false
+    },
+    {
+      "supplier_id": "SUP-011",
+      "name": "Hortícola del Cierzo S.L.",
+      "country": "Spain",
+      "city": "Mérida",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-012",
+      "name": "Conservas Santa Olaria S.L.",
+      "country": "Spain",
+      "city": "Calahorra",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-013",
+      "name": "Frutas Peña Roja S.L.",
+      "country": "Spain",
+      "city": "Vigo",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-014",
+      "name": "Hortícola Altozano S.L.",
+      "country": "Spain",
+      "city": "Tudela",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-015",
+      "name": "Conservas Monte Ardal S.L.",
+      "country": "Spain",
+      "city": "Calahorra",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-016",
+      "name": "Hortícola Val de Ruedo S.A.R.L.",
+      "country": "Morocco",
+      "city": "Agadir",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-017",
+      "name": "Pescados Prado Hondo Lda.",
+      "country": "Portugal",
+      "city": "Leiria",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-018",
+      "name": "Legumbres Llano Verde S.L.",
+      "country": "Spain",
+      "city": "Calahorra",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-019",
+      "name": "Legumbres Los Almendros S.L.",
+      "country": "Spain",
+      "city": "Tudela",
+      "approved": true
+    },
+    {
+      "supplier_id": "SUP-020",
+      "name": "Pescados Sierra Brava S.A.R.L.",
+      "country": "Morocco",
+      "city": "Agadir",
+      "approved": false
+    }
+  ],
+  "products": [
+    {
+      "code": "P-1001",
+      "name": "Tuna in olive oil",
+      "supplier_id": "SUP-001",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1002",
+      "name": "Sardines in tomato sauce",
+      "supplier_id": "SUP-001",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1003",
+      "name": "Mackerel fillets",
+      "supplier_id": "SUP-001",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1004",
+      "name": "Crushed tomato",
+      "supplier_id": "SUP-002",
+      "category": "tomato",
+      "allergens": [],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 4.0,
+          "max": 4.5
+        },
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 5.0,
+          "max": 30.0
+        }
+      ]
+    },
+    {
+      "code": "P-1005",
+      "name": "Tomato paste",
+      "supplier_id": "SUP-002",
+      "category": "tomato",
+      "allergens": [],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 4.0,
+          "max": 4.5
+        },
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 5.0,
+          "max": 30.0
+        }
+      ]
+    },
+    {
+      "code": "P-1006",
+      "name": "Peeled whole tomato",
+      "supplier_id": "SUP-002",
+      "category": "tomato",
+      "allergens": [],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 4.0,
+          "max": 4.5
+        },
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 5.0,
+          "max": 30.0
+        }
+      ]
+    },
+    {
+      "code": "P-1007",
+      "name": "Roasted red peppers",
+      "supplier_id": "SUP-003",
+      "category": "vegetables",
+      "allergens": [
+        "sulphites"
+      ],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": null,
+          "max": 4.6
+        },
+        {
+          "parameter": "Sulphites",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 50.0
+        }
+      ]
+    },
+    {
+      "code": "P-1008",
+      "name": "Artichoke hearts",
+      "supplier_id": "SUP-003",
+      "category": "vegetables",
+      "allergens": [
+        "sulphites"
+      ],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": null,
+          "max": 4.6
+        },
+        {
+          "parameter": "Sulphites",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 50.0
+        }
+      ]
+    },
+    {
+      "code": "P-1009",
+      "name": "White asparagus",
+      "supplier_id": "SUP-003",
+      "category": "vegetables",
+      "allergens": [
+        "sulphites"
+      ],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": null,
+          "max": 4.6
+        },
+        {
+          "parameter": "Sulphites",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 50.0
+        }
+      ]
+    },
+    {
+      "code": "P-1010",
+      "name": "Cooked chickpeas",
+      "supplier_id": "SUP-004",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1011",
+      "name": "Cooked white beans",
+      "supplier_id": "SUP-004",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1012",
+      "name": "Cooked lentils",
+      "supplier_id": "SUP-004",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1013",
+      "name": "Cooked chickpeas",
+      "supplier_id": "SUP-005",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1014",
+      "name": "Cooked white beans",
+      "supplier_id": "SUP-005",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1015",
+      "name": "Cooked lentils",
+      "supplier_id": "SUP-005",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1016",
+      "name": "Tuna in olive oil",
+      "supplier_id": "SUP-006",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1017",
+      "name": "Sardines in tomato sauce",
+      "supplier_id": "SUP-006",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1018",
+      "name": "Mackerel fillets",
+      "supplier_id": "SUP-006",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1019",
+      "name": "Crushed tomato",
+      "supplier_id": "SUP-007",
+      "category": "tomato",
+      "allergens": [],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 4.0,
+          "max": 4.5
+        },
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 5.0,
+          "max": 30.0
+        }
+      ]
+    },
+    {
+      "code": "P-1020",
+      "name": "Tomato paste",
+      "supplier_id": "SUP-007",
+      "category": "tomato",
+      "allergens": [],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 4.0,
+          "max": 4.5
+        },
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 5.0,
+          "max": 30.0
+        }
+      ]
+    },
+    {
+      "code": "P-1021",
+      "name": "Peeled whole tomato",
+      "supplier_id": "SUP-007",
+      "category": "tomato",
+      "allergens": [],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 4.0,
+          "max": 4.5
+        },
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 5.0,
+          "max": 30.0
+        }
+      ]
+    },
+    {
+      "code": "P-1022",
+      "name": "Cooked chickpeas",
+      "supplier_id": "SUP-008",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1023",
+      "name": "Cooked white beans",
+      "supplier_id": "SUP-008",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1024",
+      "name": "Cooked lentils",
+      "supplier_id": "SUP-008",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1025",
+      "name": "Tuna in olive oil",
+      "supplier_id": "SUP-009",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1026",
+      "name": "Sardines in tomato sauce",
+      "supplier_id": "SUP-009",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1027",
+      "name": "Mackerel fillets",
+      "supplier_id": "SUP-009",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1028",
+      "name": "Cooked chickpeas",
+      "supplier_id": "SUP-010",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1029",
+      "name": "Cooked white beans",
+      "supplier_id": "SUP-010",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1030",
+      "name": "Cooked lentils",
+      "supplier_id": "SUP-010",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1031",
+      "name": "Roasted red peppers",
+      "supplier_id": "SUP-011",
+      "category": "vegetables",
+      "allergens": [
+        "sulphites"
+      ],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": null,
+          "max": 4.6
+        },
+        {
+          "parameter": "Sulphites",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 50.0
+        }
+      ]
+    },
+    {
+      "code": "P-1032",
+      "name": "Artichoke hearts",
+      "supplier_id": "SUP-011",
+      "category": "vegetables",
+      "allergens": [
+        "sulphites"
+      ],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": null,
+          "max": 4.6
+        },
+        {
+          "parameter": "Sulphites",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 50.0
+        }
+      ]
+    },
+    {
+      "code": "P-1033",
+      "name": "White asparagus",
+      "supplier_id": "SUP-011",
+      "category": "vegetables",
+      "allergens": [
+        "sulphites"
+      ],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": null,
+          "max": 4.6
+        },
+        {
+          "parameter": "Sulphites",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 50.0
+        }
+      ]
+    },
+    {
+      "code": "P-1034",
+      "name": "Crushed tomato",
+      "supplier_id": "SUP-012",
+      "category": "tomato",
+      "allergens": [],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 4.0,
+          "max": 4.5
+        },
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 5.0,
+          "max": 30.0
+        }
+      ]
+    },
+    {
+      "code": "P-1035",
+      "name": "Tomato paste",
+      "supplier_id": "SUP-012",
+      "category": "tomato",
+      "allergens": [],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 4.0,
+          "max": 4.5
+        },
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 5.0,
+          "max": 30.0
+        }
+      ]
+    },
+    {
+      "code": "P-1036",
+      "name": "Peeled whole tomato",
+      "supplier_id": "SUP-012",
+      "category": "tomato",
+      "allergens": [],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 4.0,
+          "max": 4.5
+        },
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 5.0,
+          "max": 30.0
+        }
+      ]
+    },
+    {
+      "code": "P-1037",
+      "name": "Peaches in syrup",
+      "supplier_id": "SUP-013",
+      "category": "fruit",
+      "allergens": [],
+      "shelf_life_months": 24,
+      "specs": [
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 14.0,
+          "max": 20.0
+        },
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 3.4,
+          "max": 4.2
+        }
+      ]
+    },
+    {
+      "code": "P-1038",
+      "name": "Pears in light syrup",
+      "supplier_id": "SUP-013",
+      "category": "fruit",
+      "allergens": [],
+      "shelf_life_months": 24,
+      "specs": [
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 14.0,
+          "max": 20.0
+        },
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 3.4,
+          "max": 4.2
+        }
+      ]
+    },
+    {
+      "code": "P-1039",
+      "name": "Apricot halves",
+      "supplier_id": "SUP-013",
+      "category": "fruit",
+      "allergens": [],
+      "shelf_life_months": 24,
+      "specs": [
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 14.0,
+          "max": 20.0
+        },
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 3.4,
+          "max": 4.2
+        }
+      ]
+    },
+    {
+      "code": "P-1040",
+      "name": "Roasted red peppers",
+      "supplier_id": "SUP-014",
+      "category": "vegetables",
+      "allergens": [
+        "sulphites"
+      ],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": null,
+          "max": 4.6
+        },
+        {
+          "parameter": "Sulphites",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 50.0
+        }
+      ]
+    },
+    {
+      "code": "P-1041",
+      "name": "Artichoke hearts",
+      "supplier_id": "SUP-014",
+      "category": "vegetables",
+      "allergens": [
+        "sulphites"
+      ],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": null,
+          "max": 4.6
+        },
+        {
+          "parameter": "Sulphites",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 50.0
+        }
+      ]
+    },
+    {
+      "code": "P-1042",
+      "name": "White asparagus",
+      "supplier_id": "SUP-014",
+      "category": "vegetables",
+      "allergens": [
+        "sulphites"
+      ],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": null,
+          "max": 4.6
+        },
+        {
+          "parameter": "Sulphites",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 50.0
+        }
+      ]
+    },
+    {
+      "code": "P-1043",
+      "name": "Crushed tomato",
+      "supplier_id": "SUP-015",
+      "category": "tomato",
+      "allergens": [],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 4.0,
+          "max": 4.5
+        },
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 5.0,
+          "max": 30.0
+        }
+      ]
+    },
+    {
+      "code": "P-1044",
+      "name": "Tomato paste",
+      "supplier_id": "SUP-015",
+      "category": "tomato",
+      "allergens": [],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 4.0,
+          "max": 4.5
+        },
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 5.0,
+          "max": 30.0
+        }
+      ]
+    },
+    {
+      "code": "P-1045",
+      "name": "Peeled whole tomato",
+      "supplier_id": "SUP-015",
+      "category": "tomato",
+      "allergens": [],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 4.0,
+          "max": 4.5
+        },
+        {
+          "parameter": "Brix",
+          "unit": "°Bx",
+          "min": 5.0,
+          "max": 30.0
+        }
+      ]
+    },
+    {
+      "code": "P-1046",
+      "name": "Roasted red peppers",
+      "supplier_id": "SUP-016",
+      "category": "vegetables",
+      "allergens": [
+        "sulphites"
+      ],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": null,
+          "max": 4.6
+        },
+        {
+          "parameter": "Sulphites",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 50.0
+        }
+      ]
+    },
+    {
+      "code": "P-1047",
+      "name": "Artichoke hearts",
+      "supplier_id": "SUP-016",
+      "category": "vegetables",
+      "allergens": [
+        "sulphites"
+      ],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": null,
+          "max": 4.6
+        },
+        {
+          "parameter": "Sulphites",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 50.0
+        }
+      ]
+    },
+    {
+      "code": "P-1048",
+      "name": "White asparagus",
+      "supplier_id": "SUP-016",
+      "category": "vegetables",
+      "allergens": [
+        "sulphites"
+      ],
+      "shelf_life_months": 36,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": null,
+          "max": 4.6
+        },
+        {
+          "parameter": "Sulphites",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 50.0
+        }
+      ]
+    },
+    {
+      "code": "P-1049",
+      "name": "Tuna in olive oil",
+      "supplier_id": "SUP-017",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1050",
+      "name": "Sardines in tomato sauce",
+      "supplier_id": "SUP-017",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1051",
+      "name": "Mackerel fillets",
+      "supplier_id": "SUP-017",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1052",
+      "name": "Cooked chickpeas",
+      "supplier_id": "SUP-018",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1053",
+      "name": "Cooked white beans",
+      "supplier_id": "SUP-018",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1054",
+      "name": "Cooked lentils",
+      "supplier_id": "SUP-018",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1055",
+      "name": "Cooked chickpeas",
+      "supplier_id": "SUP-019",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1056",
+      "name": "Cooked white beans",
+      "supplier_id": "SUP-019",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1057",
+      "name": "Cooked lentils",
+      "supplier_id": "SUP-019",
+      "category": "legumes",
+      "allergens": [],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "pH",
+          "unit": "pH",
+          "min": 5.5,
+          "max": 6.8
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 1.2
+        }
+      ]
+    },
+    {
+      "code": "P-1058",
+      "name": "Tuna in olive oil",
+      "supplier_id": "SUP-020",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1059",
+      "name": "Sardines in tomato sauce",
+      "supplier_id": "SUP-020",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    },
+    {
+      "code": "P-1060",
+      "name": "Mackerel fillets",
+      "supplier_id": "SUP-020",
+      "category": "fish",
+      "allergens": [
+        "fish"
+      ],
+      "shelf_life_months": 48,
+      "specs": [
+        {
+          "parameter": "Histamine",
+          "unit": "mg/kg",
+          "min": null,
+          "max": 100.0
+        },
+        {
+          "parameter": "Salt",
+          "unit": "%",
+          "min": null,
+          "max": 2.0
+        }
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "certificate_id": "CERT-0001",
+      "supplier_id": "SUP-001",
+      "scheme": "ISO 22000",
+      "number": "ISO_22000-144500",
+      "issued": "2026-05-23",
+      "expires": "2029-05-22"
+    },
+    {
+      "certificate_id": "CERT-0002",
+      "supplier_id": "SUP-002",
+      "scheme": "BRCGS Food Safety",
+      "number": "BRCGS-829513",
+      "issued": "2026-02-27",
+      "expires": "2029-02-26"
+    },
+    {
+      "certificate_id": "CERT-0003",
+      "supplier_id": "SUP-002",
+      "scheme": "FSSC 22000",
+      "number": "FSSC-557908",
+      "issued": "2025-10-08",
+      "expires": "2028-10-07"
+    },
+    {
+      "certificate_id": "CERT-0004",
+      "supplier_id": "SUP-003",
+      "scheme": "FSSC 22000",
+      "number": "FSSC-476496",
+      "issued": "2025-11-08",
+      "expires": "2028-11-07"
+    },
+    {
+      "certificate_id": "CERT-0005",
+      "supplier_id": "SUP-004",
+      "scheme": "FSSC 22000",
+      "number": "FSSC-352338",
+      "issued": "2026-07-22",
+      "expires": "2029-07-21"
+    },
+    {
+      "certificate_id": "CERT-0006",
+      "supplier_id": "SUP-005",
+      "scheme": "ISO 22000",
+      "number": "ISO_22000-380677",
+      "issued": "2025-11-01",
+      "expires": "2028-10-31"
+    },
+    {
+      "certificate_id": "CERT-0007",
+      "supplier_id": "SUP-006",
+      "scheme": "IFS Food",
+      "number": "IFS-812698",
+      "issued": "2025-12-24",
+      "expires": "2028-12-23"
+    },
+    {
+      "certificate_id": "CERT-0008",
+      "supplier_id": "SUP-007",
+      "scheme": "FSSC 22000",
+      "number": "FSSC-589570",
+      "issued": "2026-08-28",
+      "expires": "2029-08-27"
+    },
+    {
+      "certificate_id": "CERT-0009",
+      "supplier_id": "SUP-008",
+      "scheme": "BRCGS Food Safety",
+      "number": "BRCGS-226881",
+      "issued": "2025-09-25",
+      "expires": "2028-09-24"
+    },
+    {
+      "certificate_id": "CERT-0010",
+      "supplier_id": "SUP-008",
+      "scheme": "FSSC 22000",
+      "number": "FSSC-401564",
+      "issued": "2025-03-06",
+      "expires": "2028-03-05"
+    },
+    {
+      "certificate_id": "CERT-0011",
+      "supplier_id": "SUP-009",
+      "scheme": "IFS Food",
+      "number": "IFS-164799",
+      "issued": "2025-11-16",
+      "expires": "2028-11-15"
+    },
+    {
+      "certificate_id": "CERT-0012",
+      "supplier_id": "SUP-009",
+      "scheme": "FSSC 22000",
+      "number": "FSSC-166715",
+      "issued": "2025-03-23",
+      "expires": "2028-03-22"
+    },
+    {
+      "certificate_id": "CERT-0013",
+      "supplier_id": "SUP-010",
+      "scheme": "FSSC 22000",
+      "number": "FSSC-113247",
+      "issued": "2026-05-22",
+      "expires": "2029-05-21"
+    },
+    {
+      "certificate_id": "CERT-0014",
+      "supplier_id": "SUP-011",
+      "scheme": "IFS Food",
+      "number": "IFS-327622",
+      "issued": "2025-04-29",
+      "expires": "2028-04-28"
+    },
+    {
+      "certificate_id": "CERT-0015",
+      "supplier_id": "SUP-011",
+      "scheme": "BRCGS Food Safety",
+      "number": "BRCGS-833872",
+      "issued": "2025-08-19",
+      "expires": "2028-08-18"
+    },
+    {
+      "certificate_id": "CERT-0016",
+      "supplier_id": "SUP-012",
+      "scheme": "FSSC 22000",
+      "number": "FSSC-254515",
+      "issued": "2026-01-29",
+      "expires": "2029-01-28"
+    },
+    {
+      "certificate_id": "CERT-0017",
+      "supplier_id": "SUP-013",
+      "scheme": "ISO 22000",
+      "number": "ISO_22000-421914",
+      "issued": "2026-01-30",
+      "expires": "2029-01-29"
+    },
+    {
+      "certificate_id": "CERT-0018",
+      "supplier_id": "SUP-013",
+      "scheme": "IFS Food",
+      "number": "IFS-877000",
+      "issued": "2025-03-30",
+      "expires": "2028-03-29"
+    },
+    {
+      "certificate_id": "CERT-0019",
+      "supplier_id": "SUP-014",
+      "scheme": "BRCGS Food Safety",
+      "number": "BRCGS-974749",
+      "issued": "2026-02-12",
+      "expires": "2029-02-11"
+    },
+    {
+      "certificate_id": "CERT-0020",
+      "supplier_id": "SUP-015",
+      "scheme": "ISO 22000",
+      "number": "ISO_22000-352472",
+      "issued": "2025-08-29",
+      "expires": "2028-08-28"
+    },
+    {
+      "certificate_id": "CERT-0021",
+      "supplier_id": "SUP-016",
+      "scheme": "BRCGS Food Safety",
+      "number": "BRCGS-771866",
+      "issued": "2025-11-24",
+      "expires": "2028-11-23"
+    },
+    {
+      "certificate_id": "CERT-0022",
+      "supplier_id": "SUP-016",
+      "scheme": "IFS Food",
+      "number": "IFS-285661",
+      "issued": "2025-11-09",
+      "expires": "2028-11-08"
+    },
+    {
+      "certificate_id": "CERT-0023",
+      "supplier_id": "SUP-017",
+      "scheme": "IFS Food",
+      "number": "IFS-573543",
+      "issued": "2025-02-28",
+      "expires": "2028-02-28"
+    },
+    {
+      "certificate_id": "CERT-0024",
+      "supplier_id": "SUP-018",
+      "scheme": "BRCGS Food Safety",
+      "number": "BRCGS-923660",
+      "issued": "2024-12-06",
+      "expires": "2027-12-06"
+    },
+    {
+      "certificate_id": "CERT-0025",
+      "supplier_id": "SUP-019",
+      "scheme": "FSSC 22000",
+      "number": "FSSC-589651",
+      "issued": "2025-05-13",
+      "expires": "2028-05-12"
+    },
+    {
+      "certificate_id": "CERT-0026",
+      "supplier_id": "SUP-020",
+      "scheme": "BRCGS Food Safety",
+      "number": "BRCGS-274340",
+      "issued": "2025-12-24",
+      "expires": "2028-12-23"
+    }
+  ],
+  "lots": [
+    {
+      "lot_id": "L2605-0001",
+      "product_code": "P-1001",
+      "production_date": "2026-05-20",
+      "results": {
+        "Histamine": 73.52,
+        "Salt": 1.36
+      }
+    },
+    {
+      "lot_id": "L2603-0002",
+      "product_code": "P-1001",
+      "production_date": "2026-03-07",
+      "results": {
+        "Histamine": 84.68,
+        "Salt": 1.83
+      }
+    },
+    {
+      "lot_id": "L2601-0003",
+      "product_code": "P-1002",
+      "production_date": "2026-01-21",
+      "results": {
+        "Histamine": 84.62,
+        "Salt": 1.79
+      }
+    },
+    {
+      "lot_id": "L2608-0004",
+      "product_code": "P-1002",
+      "production_date": "2026-08-31",
+      "results": {
+        "Histamine": 78.87,
+        "Salt": 1.67
+      }
+    },
+    {
+      "lot_id": "L2511-0005",
+      "product_code": "P-1003",
+      "production_date": "2025-11-25",
+      "results": {
+        "Histamine": 83.78,
+        "Salt": 1.68
+      }
+    },
+    {
+      "lot_id": "L2601-0006",
+      "product_code": "P-1003",
+      "production_date": "2026-01-21",
+      "results": {
+        "Histamine": 79.33,
+        "Salt": 1.84
+      }
+    },
+    {
+      "lot_id": "L2601-0007",
+      "product_code": "P-1004",
+      "production_date": "2026-01-28",
+      "results": {
+        "pH": 4.3,
+        "Brix": 14.21
+      }
+    },
+    {
+      "lot_id": "L2605-0008",
+      "product_code": "P-1004",
+      "production_date": "2026-05-14",
+      "results": {
+        "pH": 4.31,
+        "Brix": 24.46
+      }
+    },
+    {
+      "lot_id": "L2510-0009",
+      "product_code": "P-1005",
+      "production_date": "2025-10-23",
+      "results": {
+        "pH": 4.29,
+        "Brix": 24.45
+      }
+    },
+    {
+      "lot_id": "L2509-0010",
+      "product_code": "P-1005",
+      "production_date": "2025-09-18",
+      "results": {
+        "pH": 4.11,
+        "Brix": 14.23
+      }
+    },
+    {
+      "lot_id": "L2604-0011",
+      "product_code": "P-1006",
+      "production_date": "2026-04-18",
+      "results": {
+        "pH": 4.1,
+        "Brix": 23.71
+      }
+    },
+    {
+      "lot_id": "L2604-0012",
+      "product_code": "P-1006",
+      "production_date": "2026-04-29",
+      "results": {
+        "pH": 4.23,
+        "Brix": 9.24
+      }
+    },
+    {
+      "lot_id": "L2606-0013",
+      "product_code": "P-1007",
+      "production_date": "2026-06-02",
+      "results": {
+        "pH": 3.02,
+        "Sulphites": 38.54
+      }
+    },
+    {
+      "lot_id": "L2607-0014",
+      "product_code": "P-1007",
+      "production_date": "2026-07-27",
+      "results": {
+        "pH": 4.3,
+        "Sulphites": 30.98
+      }
+    },
+    {
+      "lot_id": "L2602-0015",
+      "product_code": "P-1008",
+      "production_date": "2026-02-08",
+      "results": {
+        "pH": 4.32,
+        "Sulphites": 33.07
+      }
+    },
+    {
+      "lot_id": "L2606-0016",
+      "product_code": "P-1008",
+      "production_date": "2026-06-03",
+      "results": {
+        "pH": 3.29,
+        "Sulphites": 32.75
+      }
+    },
+    {
+      "lot_id": "L2603-0017",
+      "product_code": "P-1009",
+      "production_date": "2026-03-10",
+      "results": {
+        "pH": 2.55,
+        "Sulphites": 30.78
+      }
+    },
+    {
+      "lot_id": "L2602-0018",
+      "product_code": "P-1009",
+      "production_date": "2026-02-20",
+      "results": {
+        "pH": 3.36,
+        "Sulphites": 41.37
+      }
+    },
+    {
+      "lot_id": "L2601-0019",
+      "product_code": "P-1010",
+      "production_date": "2026-01-30",
+      "results": {
+        "pH": 6.47,
+        "Salt": 1.07
+      }
+    },
+    {
+      "lot_id": "L2603-0020",
+      "product_code": "P-1010",
+      "production_date": "2026-03-24",
+      "results": {
+        "pH": 5.71,
+        "Salt": 0.79
+      }
+    },
+    {
+      "lot_id": "L2602-0021",
+      "product_code": "P-1011",
+      "production_date": "2026-02-26",
+      "results": {
+        "pH": 6.46,
+        "Salt": 0.81
+      }
+    },
+    {
+      "lot_id": "L2510-0022",
+      "product_code": "P-1011",
+      "production_date": "2025-10-06",
+      "results": {
+        "pH": 6.18,
+        "Salt": 0.79
+      }
+    },
+    {
+      "lot_id": "L2509-0023",
+      "product_code": "P-1012",
+      "production_date": "2025-09-29",
+      "results": {
+        "pH": 6.21,
+        "Salt": 1.09
+      }
+    },
+    {
+      "lot_id": "L2604-0024",
+      "product_code": "P-1012",
+      "production_date": "2026-04-06",
+      "results": {
+        "pH": 5.96,
+        "Salt": 1.01
+      }
+    },
+    {
+      "lot_id": "L2511-0025",
+      "product_code": "P-1013",
+      "production_date": "2025-11-05",
+      "results": {
+        "pH": 6.22,
+        "Salt": 1.08
+      }
+    },
+    {
+      "lot_id": "L2607-0026",
+      "product_code": "P-1013",
+      "production_date": "2026-07-20",
+      "results": {
+        "pH": 5.96,
+        "Salt": 0.86
+      }
+    },
+    {
+      "lot_id": "L2602-0027",
+      "product_code": "P-1014",
+      "production_date": "2026-02-11",
+      "results": {
+        "pH": 6.16,
+        "Salt": 0.92
+      }
+    },
+    {
+      "lot_id": "L2608-0028",
+      "product_code": "P-1014",
+      "production_date": "2026-08-29",
+      "results": {
+        "pH": 5.85,
+        "Salt": 0.79
+      }
+    },
+    {
+      "lot_id": "L2604-0029",
+      "product_code": "P-1015",
+      "production_date": "2026-04-21",
+      "results": {
+        "pH": 5.92,
+        "Salt": 0.76
+      }
+    },
+    {
+      "lot_id": "L2512-0030",
+      "product_code": "P-1015",
+      "production_date": "2025-12-29",
+      "results": {
+        "pH": 6.27,
+        "Salt": 0.75
+      }
+    },
+    {
+      "lot_id": "L2602-0031",
+      "product_code": "P-1016",
+      "production_date": "2026-02-26",
+      "results": {
+        "Histamine": 61.49,
+        "Salt": 1.49
+      }
+    },
+    {
+      "lot_id": "L2607-0032",
+      "product_code": "P-1016",
+      "production_date": "2026-07-06",
+      "results": {
+        "Histamine": 63.21,
+        "Salt": 1.19
+      }
+    },
+    {
+      "lot_id": "L2511-0033",
+      "product_code": "P-1017",
+      "production_date": "2025-11-20",
+      "results": {
+        "Histamine": 73.5,
+        "Salt": 1.36
+      }
+    },
+    {
+      "lot_id": "L2608-0034",
+      "product_code": "P-1017",
+      "production_date": "2026-08-30",
+      "results": {
+        "Histamine": 58.88,
+        "Salt": 1.58
+      }
+    },
+    {
+      "lot_id": "L2602-0035",
+      "product_code": "P-1018",
+      "production_date": "2026-02-22",
+      "results": {
+        "Histamine": 74.26,
+        "Salt": 1.15
+      }
+    },
+    {
+      "lot_id": "L2609-0036",
+      "product_code": "P-1018",
+      "production_date": "2026-09-18",
+      "results": {
+        "Histamine": 62.04,
+        "Salt": 1.73
+      }
+    },
+    {
+      "lot_id": "L2608-0037",
+      "product_code": "P-1019",
+      "production_date": "2026-08-20",
+      "results": {
+        "pH": 4.15,
+        "Brix": 26.44
+      }
+    },
+    {
+      "lot_id": "L2608-0038",
+      "product_code": "P-1019",
+      "production_date": "2026-08-29",
+      "results": {
+        "pH": 4.21,
+        "Brix": 10.58
+      }
+    },
+    {
+      "lot_id": "L2509-0039",
+      "product_code": "P-1020",
+      "production_date": "2025-09-15",
+      "results": {
+        "pH": 4.42,
+        "Brix": 25.65
+      }
+    },
+    {
+      "lot_id": "L2606-0040",
+      "product_code": "P-1020",
+      "production_date": "2026-06-19",
+      "results": {
+        "pH": 4.16,
+        "Brix": 14.65
+      }
+    },
+    {
+      "lot_id": "L2604-0041",
+      "product_code": "P-1021",
+      "production_date": "2026-04-24",
+      "results": {
+        "pH": 4.07,
+        "Brix": 17.64
+      }
+    },
+    {
+      "lot_id": "L2606-0042",
+      "product_code": "P-1021",
+      "production_date": "2026-06-13",
+      "results": {
+        "pH": 4.25,
+        "Brix": 19.08
+      }
+    },
+    {
+      "lot_id": "L2512-0043",
+      "product_code": "P-1022",
+      "production_date": "2025-12-18",
+      "results": {
+        "pH": 6.29,
+        "Salt": 0.86
+      }
+    },
+    {
+      "lot_id": "L2512-0044",
+      "product_code": "P-1022",
+      "production_date": "2025-12-02",
+      "results": {
+        "pH": 6.26,
+        "Salt": 0.94
+      }
+    },
+    {
+      "lot_id": "L2605-0045",
+      "product_code": "P-1023",
+      "production_date": "2026-05-13",
+      "results": {
+        "pH": 5.73,
+        "Salt": 0.96
+      }
+    },
+    {
+      "lot_id": "L2608-0046",
+      "product_code": "P-1023",
+      "production_date": "2026-08-07",
+      "results": {
+        "pH": 6.13,
+        "Salt": 0.69
+      }
+    },
+    {
+      "lot_id": "L2509-0047",
+      "product_code": "P-1024",
+      "production_date": "2025-09-09",
+      "results": {
+        "pH": 5.9,
+        "Salt": 0.77
+      }
+    },
+    {
+      "lot_id": "L2606-0048",
+      "product_code": "P-1024",
+      "production_date": "2026-06-02",
+      "results": {
+        "pH": 5.67,
+        "Salt": 0.67
+      }
+    },
+    {
+      "lot_id": "L2509-0049",
+      "product_code": "P-1025",
+      "production_date": "2025-09-04",
+      "results": {
+        "Histamine": 93.62,
+        "Salt": 1.24
+      }
+    },
+    {
+      "lot_id": "L2604-0050",
+      "product_code": "P-1025",
+      "production_date": "2026-04-04",
+      "results": {
+        "Histamine": 85.15,
+        "Salt": 1.47
+      }
+    },
+    {
+      "lot_id": "L2511-0051",
+      "product_code": "P-1026",
+      "production_date": "2025-11-15",
+      "results": {
+        "Histamine": 58.16,
+        "Salt": 1.36
+      }
+    },
+    {
+      "lot_id": "L2510-0052",
+      "product_code": "P-1026",
+      "production_date": "2025-10-23",
+      "results": {
+        "Histamine": 69.02,
+        "Salt": 1.77
+      }
+    },
+    {
+      "lot_id": "L2601-0053",
+      "product_code": "P-1027",
+      "production_date": "2026-01-23",
+      "results": {
+        "Histamine": 77.05,
+        "Salt": 1.54
+      }
+    },
+    {
+      "lot_id": "L2508-0054",
+      "product_code": "P-1027",
+      "production_date": "2025-08-28",
+      "results": {
+        "Histamine": 59.41,
+        "Salt": 1.52
+      }
+    },
+    {
+      "lot_id": "L2509-0055",
+      "product_code": "P-1028",
+      "production_date": "2025-09-20",
+      "results": {
+        "pH": 6.35,
+        "Salt": 0.74
+      }
+    },
+    {
+      "lot_id": "L2509-0056",
+      "product_code": "P-1028",
+      "production_date": "2025-09-08",
+      "results": {
+        "pH": 5.79,
+        "Salt": 1.06
+      }
+    },
+    {
+      "lot_id": "L2606-0057",
+      "product_code": "P-1029",
+      "production_date": "2026-06-15",
+      "results": {
+        "pH": 5.81,
+        "Salt": 0.73
+      }
+    },
+    {
+      "lot_id": "L2603-0058",
+      "product_code": "P-1029",
+      "production_date": "2026-03-17",
+      "results": {
+        "pH": 5.91,
+        "Salt": 0.71
+      }
+    },
+    {
+      "lot_id": "L2510-0059",
+      "product_code": "P-1030",
+      "production_date": "2025-10-31",
+      "results": {
+        "pH": 6.19,
+        "Salt": 0.67
+      }
+    },
+    {
+      "lot_id": "L2603-0060",
+      "product_code": "P-1030",
+      "production_date": "2026-03-12",
+      "results": {
+        "pH": 6.4,
+        "Salt": 0.72
+      }
+    },
+    {
+      "lot_id": "L2607-0061",
+      "product_code": "P-1031",
+      "production_date": "2026-07-28",
+      "results": {
+        "pH": 2.76,
+        "Sulphites": 31.34
+      }
+    },
+    {
+      "lot_id": "L2601-0062",
+      "product_code": "P-1031",
+      "production_date": "2026-01-23",
+      "results": {
+        "pH": 3.11,
+        "Sulphites": 29.51
+      }
+    },
+    {
+      "lot_id": "L2509-0063",
+      "product_code": "P-1032",
+      "production_date": "2025-09-20",
+      "results": {
+        "pH": 3.12,
+        "Sulphites": 31.81
+      }
+    },
+    {
+      "lot_id": "L2510-0064",
+      "product_code": "P-1032",
+      "production_date": "2025-10-28",
+      "results": {
+        "pH": 2.77,
+        "Sulphites": 28.47
+      }
+    },
+    {
+      "lot_id": "L2604-0065",
+      "product_code": "P-1033",
+      "production_date": "2026-04-29",
+      "results": {
+        "pH": 3.56,
+        "Sulphites": 29.47
+      }
+    },
+    {
+      "lot_id": "L2605-0066",
+      "product_code": "P-1033",
+      "production_date": "2026-05-25",
+      "results": {
+        "pH": 2.57,
+        "Sulphites": 45.9
+      }
+    },
+    {
+      "lot_id": "L2510-0067",
+      "product_code": "P-1034",
+      "production_date": "2025-10-12",
+      "results": {
+        "pH": 4.09,
+        "Brix": 22.8
+      }
+    },
+    {
+      "lot_id": "L2512-0068",
+      "product_code": "P-1034",
+      "production_date": "2025-12-06",
+      "results": {
+        "pH": 4.26,
+        "Brix": 10.61
+      }
+    },
+    {
+      "lot_id": "L2510-0069",
+      "product_code": "P-1035",
+      "production_date": "2025-10-30",
+      "results": {
+        "pH": 4.43,
+        "Brix": 15.19
+      }
+    },
+    {
+      "lot_id": "L2509-0070",
+      "product_code": "P-1035",
+      "production_date": "2025-09-20",
+      "results": {
+        "pH": 4.27,
+        "Brix": 23.71
+      }
+    },
+    {
+      "lot_id": "L2609-0071",
+      "product_code": "P-1036",
+      "production_date": "2026-09-19",
+      "results": {
+        "pH": 4.13,
+        "Brix": 25.48
+      }
+    },
+    {
+      "lot_id": "L2511-0072",
+      "product_code": "P-1036",
+      "production_date": "2025-11-10",
+      "results": {
+        "pH": 4.31,
+        "Brix": 10.17
+      }
+    },
+    {
+      "lot_id": "L2605-0073",
+      "product_code": "P-1037",
+      "production_date": "2026-05-16",
+      "results": {
+        "Brix": 17.4,
+        "pH": 3.54
+      }
+    },
+    {
+      "lot_id": "L2602-0074",
+      "product_code": "P-1037",
+      "production_date": "2026-02-11",
+      "results": {
+        "Brix": 18.6,
+        "pH": 3.81
+      }
+    },
+    {
+      "lot_id": "L2510-0075",
+      "product_code": "P-1038",
+      "production_date": "2025-10-12",
+      "results": {
+        "Brix": 15.06,
+        "pH": 4.07
+      }
+    },
+    {
+      "lot_id": "L2510-0076",
+      "product_code": "P-1038",
+      "production_date": "2025-10-13",
+      "results": {
+        "Brix": 15.02,
+        "pH": 3.93
+      }
+    },
+    {
+      "lot_id": "L2609-0077",
+      "product_code": "P-1039",
+      "production_date": "2026-09-14",
+      "results": {
+        "Brix": 16.89,
+        "pH": 3.84
+      }
+    },
+    {
+      "lot_id": "L2508-0078",
+      "product_code": "P-1039",
+      "production_date": "2025-08-28",
+      "results": {
+        "Brix": 16.78,
+        "pH": 3.72
+      }
+    },
+    {
+      "lot_id": "L2512-0079",
+      "product_code": "P-1040",
+      "production_date": "2025-12-24",
+      "results": {
+        "pH": 3.69,
+        "Sulphites": 32.74
+      }
+    },
+    {
+      "lot_id": "L2608-0080",
+      "product_code": "P-1040",
+      "production_date": "2026-08-15",
+      "results": {
+        "pH": 2.53,
+        "Sulphites": 38.49
+      }
+    },
+    {
+      "lot_id": "L2510-0081",
+      "product_code": "P-1041",
+      "production_date": "2025-10-28",
+      "results": {
+        "pH": 2.93,
+        "Sulphites": 30.07
+      }
+    },
+    {
+      "lot_id": "L2607-0082",
+      "product_code": "P-1041",
+      "production_date": "2026-07-07",
+      "results": {
+        "pH": 2.9,
+        "Sulphites": 31.21
+      }
+    },
+    {
+      "lot_id": "L2607-0083",
+      "product_code": "P-1042",
+      "production_date": "2026-07-05",
+      "results": {
+        "pH": 2.93,
+        "Sulphites": 31.61
+      }
+    },
+    {
+      "lot_id": "L2602-0084",
+      "product_code": "P-1042",
+      "production_date": "2026-02-11",
+      "results": {
+        "pH": 3.96,
+        "Sulphites": 46.37
+      }
+    },
+    {
+      "lot_id": "L2512-0085",
+      "product_code": "P-1043",
+      "production_date": "2025-12-14",
+      "results": {
+        "pH": 4.39,
+        "Brix": 10.09
+      }
+    },
+    {
+      "lot_id": "L2508-0086",
+      "product_code": "P-1043",
+      "production_date": "2025-08-29",
+      "results": {
+        "pH": 4.15,
+        "Brix": 11.79
+      }
+    },
+    {
+      "lot_id": "L2509-0087",
+      "product_code": "P-1044",
+      "production_date": "2025-09-03",
+      "results": {
+        "pH": 4.07,
+        "Brix": 18.88
+      }
+    },
+    {
+      "lot_id": "L2601-0088",
+      "product_code": "P-1044",
+      "production_date": "2026-01-29",
+      "results": {
+        "pH": 4.15,
+        "Brix": 20.27
+      }
+    },
+    {
+      "lot_id": "L2607-0089",
+      "product_code": "P-1045",
+      "production_date": "2026-07-13",
+      "results": {
+        "pH": 4.2,
+        "Brix": 19.26
+      }
+    },
+    {
+      "lot_id": "L2601-0090",
+      "product_code": "P-1045",
+      "production_date": "2026-01-23",
+      "results": {
+        "pH": 4.11,
+        "Brix": 14.93
+      }
+    },
+    {
+      "lot_id": "L2605-0091",
+      "product_code": "P-1046",
+      "production_date": "2026-05-06",
+      "results": {
+        "pH": 3.65,
+        "Sulphites": 41.77
+      }
+    },
+    {
+      "lot_id": "L2605-0092",
+      "product_code": "P-1046",
+      "production_date": "2026-05-16",
+      "results": {
+        "pH": 3.24,
+        "Sulphites": 29.48
+      }
+    },
+    {
+      "lot_id": "L2607-0093",
+      "product_code": "P-1047",
+      "production_date": "2026-07-13",
+      "results": {
+        "pH": 3.55,
+        "Sulphites": 35.73
+      }
+    },
+    {
+      "lot_id": "L2512-0094",
+      "product_code": "P-1047",
+      "production_date": "2025-12-03",
+      "results": {
+        "pH": 3.18,
+        "Sulphites": 43.75
+      }
+    },
+    {
+      "lot_id": "L2605-0095",
+      "product_code": "P-1048",
+      "production_date": "2026-05-19",
+      "results": {
+        "pH": 4.18,
+        "Sulphites": 42.54
+      }
+    },
+    {
+      "lot_id": "L2509-0096",
+      "product_code": "P-1048",
+      "production_date": "2025-09-25",
+      "results": {
+        "pH": 3.74,
+        "Sulphites": 27.89
+      }
+    },
+    {
+      "lot_id": "L2603-0097",
+      "product_code": "P-1049",
+      "production_date": "2026-03-21",
+      "results": {
+        "Histamine": 61.99,
+        "Salt": 1.82
+      }
+    },
+    {
+      "lot_id": "L2603-0098",
+      "product_code": "P-1049",
+      "production_date": "2026-03-17",
+      "results": {
+        "Histamine": 63.44,
+        "Salt": 1.89
+      }
+    },
+    {
+      "lot_id": "L2603-0099",
+      "product_code": "P-1050",
+      "production_date": "2026-03-31",
+      "results": {
+        "Histamine": 60.08,
+        "Salt": 1.62
+      }
+    },
+    {
+      "lot_id": "L2605-0100",
+      "product_code": "P-1050",
+      "production_date": "2026-05-22",
+      "results": {
+        "Histamine": 79.02,
+        "Salt": 1.7
+      }
+    },
+    {
+      "lot_id": "L2606-0101",
+      "product_code": "P-1051",
+      "production_date": "2026-06-21",
+      "results": {
+        "Histamine": 93.74,
+        "Salt": 1.15
+      }
+    },
+    {
+      "lot_id": "L2511-0102",
+      "product_code": "P-1051",
+      "production_date": "2025-11-26",
+      "results": {
+        "Histamine": 82.19,
+        "Salt": 1.19
+      }
+    },
+    {
+      "lot_id": "L2607-0103",
+      "product_code": "P-1052",
+      "production_date": "2026-07-14",
+      "results": {
+        "pH": 5.87,
+        "Salt": 1.07
+      }
+    },
+    {
+      "lot_id": "L2509-0104",
+      "product_code": "P-1052",
+      "production_date": "2025-09-10",
+      "results": {
+        "pH": 6.17,
+        "Salt": 0.7
+      }
+    },
+    {
+      "lot_id": "L2603-0105",
+      "product_code": "P-1053",
+      "production_date": "2026-03-14",
+      "results": {
+        "pH": 6.55,
+        "Salt": 0.68
+      }
+    },
+    {
+      "lot_id": "L2605-0106",
+      "product_code": "P-1053",
+      "production_date": "2026-05-16",
+      "results": {
+        "pH": 6.19,
+        "Salt": 0.67
+      }
+    },
+    {
+      "lot_id": "L2511-0107",
+      "product_code": "P-1054",
+      "production_date": "2025-11-12",
+      "results": {
+        "pH": 5.64,
+        "Salt": 0.97
+      }
+    },
+    {
+      "lot_id": "L2509-0108",
+      "product_code": "P-1054",
+      "production_date": "2025-09-26",
+      "results": {
+        "pH": 5.72,
+        "Salt": 0.93
+      }
+    },
+    {
+      "lot_id": "L2601-0109",
+      "product_code": "P-1055",
+      "production_date": "2026-01-10",
+      "results": {
+        "pH": 6.3,
+        "Salt": 0.91
+      }
+    },
+    {
+      "lot_id": "L2608-0110",
+      "product_code": "P-1055",
+      "production_date": "2026-08-21",
+      "results": {
+        "pH": 5.74,
+        "Salt": 0.66
+      }
+    },
+    {
+      "lot_id": "L2608-0111",
+      "product_code": "P-1056",
+      "production_date": "2026-08-22",
+      "results": {
+        "pH": 6.02,
+        "Salt": 1.11
+      }
+    },
+    {
+      "lot_id": "L2606-0112",
+      "product_code": "P-1056",
+      "production_date": "2026-06-30",
+      "results": {
+        "pH": 5.72,
+        "Salt": 1.11
+      }
+    },
+    {
+      "lot_id": "L2605-0113",
+      "product_code": "P-1057",
+      "production_date": "2026-05-11",
+      "results": {
+        "pH": 6.07,
+        "Salt": 0.72
+      }
+    },
+    {
+      "lot_id": "L2511-0114",
+      "product_code": "P-1057",
+      "production_date": "2025-11-14",
+      "results": {
+        "pH": 6.49,
+        "Salt": 0.86
+      }
+    },
+    {
+      "lot_id": "L2512-0115",
+      "product_code": "P-1058",
+      "production_date": "2025-12-23",
+      "results": {
+        "Histamine": 68.4,
+        "Salt": 1.84
+      }
+    },
+    {
+      "lot_id": "L2511-0116",
+      "product_code": "P-1058",
+      "production_date": "2025-11-15",
+      "results": {
+        "Histamine": 67.41,
+        "Salt": 1.85
+      }
+    },
+    {
+      "lot_id": "L2510-0117",
+      "product_code": "P-1059",
+      "production_date": "2025-10-26",
+      "results": {
+        "Histamine": 56.25,
+        "Salt": 1.81
+      }
+    },
+    {
+      "lot_id": "L2512-0118",
+      "product_code": "P-1059",
+      "production_date": "2025-12-02",
+      "results": {
+        "Histamine": 72.78,
+        "Salt": 1.7
+      }
+    },
+    {
+      "lot_id": "L2605-0119",
+      "product_code": "P-1060",
+      "production_date": "2026-05-10",
+      "results": {
+        "Histamine": 58.36,
+        "Salt": 1.23
+      }
+    },
+    {
+      "lot_id": "L2510-0120",
+      "product_code": "P-1060",
+      "production_date": "2025-10-06",
+      "results": {
+        "Histamine": 58.34,
+        "Salt": 1.45
+      }
+    }
+  ]
+}
